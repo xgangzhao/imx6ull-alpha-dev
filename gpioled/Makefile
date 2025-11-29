@@ -1,7 +1,7 @@
 KERNELDIR := /home/zhaoxigang/git/linux-imx
 CURRENT_PATH := $(shell pwd)
 
-obj-m := gpioled.o
+obj-m := pltled.o
 
 build: kernel_modules
 
